@@ -1,6 +1,6 @@
 {
     "name": "@lumeweb/chardet",
-    "version": "0.0.0-development",
+    "version": "1.6.1",
     "homepage": "https://github.com/runk/node-chardet",
     "description": "Character encoding detector",
     "type": "module",
@@ -42,13 +42,14 @@
         "presetter": "*"
     },
     "readme": "ERROR: No README data found!",
-    "_id": "chardet@0.0.0-development",
     "scripts": {
         "prepare": "presetter bootstrap",
         "build": "run build",
         "semantic-release": "semantic-release"
     },
-    "files": ["lib"],
+    "files": [
+        "lib"
+    ],
     "publishConfig": {
         "access": "public"
     }

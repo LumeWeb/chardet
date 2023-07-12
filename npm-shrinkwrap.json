@@ -1,12 +1,12 @@
 {
   "name": "@lumeweb/chardet",
-  "version": "0.0.0-development",
+  "version": "1.6.1",
   "lockfileVersion": 3,
   "requires": true,
   "packages": {
     "": {
       "name": "@lumeweb/chardet",
-      "version": "0.0.0-development",
+      "version": "1.6.1",
       "license": "MIT",
       "devDependencies": {
         "@lumeweb/node-library-preset": "^0.2.7",
