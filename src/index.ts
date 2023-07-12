@@ -54,7 +54,7 @@ export const detect = (buffer: Uint8Array): string | null => {
 
 export const analyse = (buffer: Uint8Array): AnalyseResult => {
   // Tally up the byte occurrence statistics.
-  const byteStats = [];
+  const byteStats: number[] = [];
   for (let i = 0; i < 256; i++) byteStats[i] = 0;
 
   for (let i = buffer.length - 1; i >= 0; i--) byteStats[buffer[i] & 0x00ff]++;
