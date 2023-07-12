@@ -1,5 +1,5 @@
-import { Context, Recogniser } from '.';
-import match, { Match } from '../match';
+import { Context, Recogniser } from './index.js';
+import match, { Match } from '../match.js';
 
 /**
  * This class matches UTF-16 and UTF-32, both big- and little-endian. The

@@ -1,4 +1,4 @@
-import { Match } from '../match';
+import { Match } from '../match.js';
 
 export interface Recogniser {
   match(input: Context): Match | null;

@@ -1,4 +1,4 @@
-import { Context, Recogniser } from "./encoding";
+import { Context, Recogniser } from './encoding/index.js';
 
 export interface Match {
   confidence: number;

@@ -1,5 +1,5 @@
-import { Context, Recogniser } from '../encoding/index';
-import match, { Match } from '../match';
+import { Context, Recogniser } from '../encoding/index.js';
+import match, { Match } from '../match.js';
 
 /**
  * This class recognizes single-byte encodings. Because the encoding scheme is so

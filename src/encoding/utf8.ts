@@ -1,5 +1,5 @@
-import { Context, Recogniser } from '.';
-import match, { Match } from '../match';
+import { Context, Recogniser } from './index.js';
+import match, { Match } from '../match.js';
 
 export default class Utf8 implements Recogniser {
   name() {
